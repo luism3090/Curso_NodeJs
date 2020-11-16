@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 app.get("/servicios", (req, res) => {
   res.render("servicios", {
-    tituloServicios: "Mi mensaje desde mi servicio covidiano",
+    tituloServicios: "Mi mensaje desde mi servicio",
   });
 });
 
