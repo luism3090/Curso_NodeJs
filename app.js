@@ -3,6 +3,8 @@ const app = express();
 
 require('dotenv').config();
 
+console.log("algo");
+
 const port = process.env.PORT || 3000;
 
 // Conexion a base de datos 
