@@ -98,8 +98,6 @@ router.delete('/:id', async (req,res) => {
   } catch (error) {
     console.log(error);
   }
-
-
 });
 
 router.put('/:id', async(req,res)=>{
